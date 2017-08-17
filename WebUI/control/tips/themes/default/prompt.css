@@ -1,0 +1,5 @@
+﻿.prompt{ position:absolute; left:200px; top:200px; background-color:#fff; border:#e8e8e8 1px solid; padding:15px 10px 15px 26px; box-shadow:0 0 6px #ccc; width:180px;}
+.prompt span.load{background:url(images/01.gif) no-repeat;width:32px; height:32px; display:inline-block; float:left;}
+.prompt span.warning{background:url(images/warning.gif) no-repeat;width:34px; height:34px; display:inline-block; float:left;}
+.prompt div{ font:normal 14px/22px 微软雅黑,Arial; color:#acacac;margin-left:10px;float:left; width:130px;}
+.prompt div b{ font-weight:normal; color:#cf0300;}

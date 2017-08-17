@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>上业环球多媒体学习库-授权过期</title>
+    <link href="WebUI/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="WebUI/css/error.css" rel="stylesheet" type="text/css" />
+    <script src="WebUI/js/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <style type="text/css">
+        .expered {
+            background: url(WebUI/images/expered.jpg) no-repeat;
+            width: 704px;
+            height: 343px;
+            margin: 0 auto;
+        }
+
+        .expered2 {
+            background: url(WebUI/images/expered1_1.jpg) no-repeat;
+            width: 704px;
+            height: 343px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="expered" style=" display:none">
+            <a href="PC/login.aspx" class="loginUser">账号登录</a>
+            <p><b>1</b>秒后将跳转到登录页</p>
+        </div>
+        <div class="expered2" style="display:none;">
+            <a href='http://wpa.qq.com/msgrd?v=3&uin=541989005&site=qq&menu=yes' target="_blank" class="qq"></a>
+            <a href="http://syhq.shangyekj.com" class="homeCenter">中心站点</a>
+        </div>
+    </div>
+    <div class="foot"><a href="http://www.shangyekj.com" target="_blank">上海上业信息科技有限公司</a> 版权所有 沪ICP：09071524</div>
+    <script>
+        var mm = ($(window).height() - $(".content").height()) / 2 - 50;
+        if (mm > 0) {
+            $(".content").css("margin-top", mm);
+        }
+        else {
+            $(".content").css("margin-top", 0);
+        }
+        window.onresize = function () {
+            var mm = ($(window).height() - $(".content").height()) / 2 - 50;
+            if (mm > 0) {
+                $(".content").css("margin-top", mm);
+            }
+            else {
+                $(".content").css("margin-top", 0);
+            }
+        } 
+        $(function () {
+            $.ajax({
+                url: "Users.axd",
+                type: "GET",
+                data: { action: "getCenter" },
+                success: function (responseText) {
+                    if (responseText == 1) {
+                        $(".expered").css("display", "block");
+                        $(".expered2").css("display", "none");
+                        setTimeout(function () { location.href = "/PC/login.aspx"; }, 1000);
+                    } else {
+                        $(".expered2").css("display", "block");
+                        $(".expered").css("display", "none");
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

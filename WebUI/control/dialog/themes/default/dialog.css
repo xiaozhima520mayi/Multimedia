@@ -1,0 +1,15 @@
+﻿/*弹出框*/
+.box_dialog{ border:#c3b29d 1px solid; width:500px; position:fixed; left:380px; top:330px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+((document.documentElement.clientHeight/2)-(this.clientHeight/2)))); height:200px;background:#fff;z-index:9999999;box-shadow:0 0 18px #000;}
+.box_title{ background:url(images/up_tilte.gif) repeat-x; border-bottom:#c3b29d 1px solid; height:35px; padding-left:10px}
+.box_prompt{ line-height:35px;color:#6a5936;}/*background:url(images/logo.png) no-repeat left center;*/
+.box_close{ float:right; margin:10px 15px 0 0;background:url(images/ico.gif) no-repeat 0 -60px;width:12px; height:10px}
+.box_ico{ float:left; height:30px; width:30px;background:url(images/warning.png) no-repeat;}
+.box_success{ float:left; height:30px; width:30px;background:url(images/correct.png) no-repeat;}
+.box_error{ float:left; height:30px; width:30px;background:url(images/errors.png) no-repeat;}
+.box_confirm{ float:left; height:30px; width:30px;background:url(images/doubt.png) no-repeat;}
+.box_directions{margin-left:35px; font:bold 14px/30px 宋体,Arial; color:#8F8F8F}
+.box_content{ margin:15px 30px;}
+.box_bottom{height:30px; margin:10px auto 0 auto; text-align:center}
+.box_bottom a{ width:90px; height:30px; text-align:center; line-height:30px; margin:0 5px; cursor:pointer;color:#737373; text-decoration:none; display:inline-block }
+.box_bottom a.yes{background:url(images/ico.gif) no-repeat 0 0; width:90px; height:30px;}
+.box_bottom a.no{background:url(images/ico.gif) no-repeat 0 -30px;width:90px; height:30px}

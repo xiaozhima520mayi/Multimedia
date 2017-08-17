@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Template>
+	<Template  defaultimg="/WebUI/images/no_photo.jpg" imageSize="Small">
+		<Head></Head>
+		<Item>
+			<![CDATA[
+        <div class="video_main" rel="{C_Id}"  p="{IsPms}" rels="{C_Rights}">
+              <div class="video_top">
+                  <span class="opened"><img src="/WebUI/control/imgloading/point.gif" rel="{C_Image}" onclick="list.stretch({C_Id})" onload="imgloadimg($(this),1,1)" /></span>
+                  <div class="v_r">
+                      <h2><a href="javascript://" onclick="list.stretch({C_Id})">{C_Title}</a></h2>
+                      <p>分类：<a href="javascript://">{CatalogName}</a></p>
+                      <p>课时：{C_FileCount}课时</p>
+                      <p>推荐：<b id='link_{C_Id}' onclick='addRes({C_Id});'>{C_UserRecommend}</b></p>  <!--点击后给b加class=“e”,“喜欢”状态发生改变-->
+                  </div>
+                  <a href="javascript://" target="_blank" class="locking"></a>
+                  <a href="javascript://" target="_blank" class="playd" style=" display:none;"></a>
+              </div>
+              <div class="video_middle" style=" display:none;">
+                  <p class="vid_p">
+                      <span style="width:92%;">课程</span>
+                      <span>播放</span>
+                  </p>
+                  <div class="vid_list" style=" height:320px;">
+                      <div class="nano" id="nano2_{C_Id}">
+                          <div class="content" style="right: -17px;">
+                              <ul id='video_middle_{C_Id}'>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        ]]>
+		</Item>
+		<Footer></Footer>
+	</Template>
+</Template>

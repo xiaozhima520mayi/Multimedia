@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Template>
+  <Template  defaultimg="/WebUI/images/no_photo.jpg" imageSize="Small">
+    <Head></Head>
+    <Item>
+      <![CDATA[
+        <li class="isPms" p="{IsPms}" rels="{C_Rights}">
+            <div class="tab_course">
+                <a href="detail.aspx?id={C_Id}" target="_blank"><img  src="/WebUI/control/imgloading/point.gif" rel="{C_Image}" onload="imgloadimg($(this),1,1)" /></a>
+                <p>{C_Click}</p>
+                <span  title='{tC_Title}'>{C_Title,26}</span>
+                <i class="icon key"></i>
+            </div>
+            <div class="tab_course_shink">
+                <a href="detail.aspx?id={C_Id}" target="_blank">{tC_Title}</a>
+                <p>点击量：{C_Click}</p>
+                <p>课时数：{C_FileCount}</p>
+                <a class="tab_course_btn" href="detail.aspx?id={C_Id}" target="_blank"><span>查看详情</span><i class="course_btn_icon"></i></a>
+            </div>
+        </li>]]>
+    </Item>
+    <Footer></Footer>
+  </Template>
+</Template>

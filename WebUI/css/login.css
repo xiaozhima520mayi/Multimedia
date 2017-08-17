@@ -1,0 +1,37 @@
+﻿body {
+}
+.header{background:#efefef;width:100%;height:137px;}
+.header_information{width:1000px;height:137px;margin:0 auto; overflow:hidden;}
+.header_left{float:left; display:inline;width:400px;height:97px;padding-top:40px;}
+.header_left img {width:400px;height:56px;}
+.header_right{float:left; display:inline;width:365px;height:118px;margin-left:180px; overflow:hidden;}
+.header_right div a{font:normal 18px/24px "微软雅黑";color:#313131;float:left; display:inline-block;margin-top:48px;}
+.header_right span{margin:50px 20px 0 21px;float:left; display:inline-block;height:20px; border-right:#313131 1px solid;}
+.banner{width:100%; background-color:#fff;height:420px;}
+.banner_information{width:1000px;height:380px;margin:0 auto;}
+.banner_right{width:532px;height:375px;float:right;display:inline;margin-top:30px;}
+.photo{width:532px;height:355px;}
+.photo img {width:532px;height:355px;}
+.point{width:532px;height:20px;}
+.point a{width:10px;height:10px;font-size:0px;float:right; background:#c7c7c7;margin:10px 0px 0 10px;display:inline-block;}
+.point a:hover{background:#009cd6;}
+.banner_left{width:430px;height:350px;float:left;display:inline;margin-top:20px;}
+.login_top{width:430px;height:24px;margin:25px auto 0 auto;overflow:hidden;}
+.login_topleft{float:left;display:inline;font:normal 20px/24px "微软雅黑";color:#345060;}
+.login_topright{float:right;display:inline;font:normal 14px/24px "微软雅黑";color:#515151;}
+.hint{width:430px;height:18px;margin:10px auto;font:normal 12px/18px "微软雅黑";color:#ff001e;}
+.input_first{width:378px;height:45px; border-bottom:1px solid #bbb;margin:10px 0 10px 0px;background:url(../images/input_13.png) no-repeat 15px 10px;padding-left:50px;color:#bbb;font:normal 16px/45px "微软雅黑"; text-align:left;}
+.input_firstA{width:378px;height:45px; border-bottom:1px solid #009cd6;margin:10px 0 10px 0px;background:url(../images/input_03.png) no-repeat 15px 10px;padding-left:50px;color:#009cd6;font:normal 16px/45px "微软雅黑"; text-align:left;}
+.pwd_box{width:428px;height:45px; position:relative;border-bottom:1px solid #bbb;margin:10px 0 10px 0px;overflow:hidden;}
+.pwd_box b{background:url(../images/input_14.png) no-repeat; width:21px; height:25px; position:absolute; left:15px; top:10px;}
+.input_second{width:378px;height:45px;color:#bbb;font:normal 16px/45px "微软雅黑";background:none; border:0; position:absolute; left:50px; top:0}
+.button{width:423px;height:45px; display:block; border:1px solid #eee;margin:20px auto;border-radius:5px;background:#009cd6;font:normal 16px/45px "微软雅黑"; text-align:center;color:#fff;}
+.button:hover {color:#FFF;}
+.button:active {color:#FFF;}
+.login_bottom{width:430px;height:18px;margin:10px auto;font:normal 16px/24px "微软雅黑";color:#bbb;}
+.footer{width:100%;background-color:#efefef;color:#a0a0a0;font:normal 18px/24px "微软雅黑"; text-align:center;padding-top:20px; height:40px;}
+.footer a{color:#a0a0a0;font:normal 18px/24px "微软雅黑"; }
+.font_blue{color:#009cd6;font:normal 14px/24px "微软雅黑";}
+.font_blue:hover{color:#009cd6;font:normal 14px/24px "微软雅黑";}
+.font_orange{color:#f2682b;font:normal 16px/24px "微软雅黑";}
+.sizeColor{color:#6e6e6e;}

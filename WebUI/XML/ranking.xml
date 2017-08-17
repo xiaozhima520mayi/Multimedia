@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Template>
+  <Template  defaultimg="/WebUI/images/no_photo.jpg" imageSize="Small">
+    <Head></Head>
+    <Item>
+      <![CDATA[
+        <li><a href="detail.aspx?id={C_Id}" target="_blank" rel="{C_Rights}" title='{tC_Title}'>{C_Title,18}</a></li>
+        ]]>
+    </Item>
+    <Footer></Footer>
+  </Template>
+</Template>

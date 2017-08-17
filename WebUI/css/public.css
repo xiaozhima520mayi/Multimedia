@@ -1,0 +1,59 @@
+﻿body{behavior:url(../css/csshover.htc); }
+.clearfix:before,
+.clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.fc.gray {color:#7a7a7a;}
+.fc.blue{color:#406faf;}
+.hide {display:none!important;}
+.margin-top-10 {margin-top:10px;}
+.margin-top-20 {margin-top:20px;}
+.margin-top-30 {margin-top:30px;}
+.row {width: 1200px;margin:0 auto; position:relative;}
+.top-tip span,.top-tip a{ font:normal 14px/31px "微软雅黑";color:#000000;}
+.top-tip{height:31px;overflow:hidden;background: #e9e9e9;border-bottom: 1px solid #cdcdcd;}
+.logo{ margin:30px 0 0 0;}
+.head{ position:relative; z-index:99999999;}
+/*检索框*/
+.select_area{ width:380px; position:absolute; right:0; top:30px; z-index:9999;}
+.se_l{ float:left; width:70px; height:38px; border:#be1b1e 2px solid; border-right:0; float:left; position:relative;}
+.opens .se_l{border-bottom:none;}
+.se_l p{ font:normal 14px/38px "微软雅黑"; text-align:center; background:url(../images/seles_ico.png) no-repeat right top; width:70px; float:left; cursor:pointer;}
+.se_l ul{ display:none; position:absolute; left:-2px; top:38px; border:#be1b1e 2px solid;border-top:none;background-color:#fff; width:70px;}
+.opens ul{ display:none;}
+.se_l li{ font:normal 14px/24px "微软雅黑"; text-indent:22px;cursor:pointer;}
+.se_l li.e{ background-color:#eaeaea; color:#000;}
+.se_m{ border:#be1b1e 2px solid;border-left:0; width:224px; padding:10px; height:18px; float:left; overflow:hidden;}
+.se_m input{ font:normal 14px/18px "微软雅黑";color:#b2b2b2; height:18px; width:224px; overflow:hidden; background:none; border:0;}
+.se_m input.current{ color:Black;}
+.but_search{ background: url("../images/search-icon.png") no-repeat center center #be1b1e;cursor: pointer; float:left; width: 60px; height:42px}
+.melist a{ color:#595959;font:normal 14px/30px "微软雅黑"; padding:0 8px;}
+.melist a.e,.melist a:hover{ color:#c15d1a}
+.nav_list{ position:absolute; left:360px; top:30px;}
+.nav_list li{ float:left; padding:0 12px;}
+.nav_list li a { color:#1e1e1e;font:normal 16px/30px "微软雅黑"; }
+.nav_list li a.all {background:url("../images/li_ico.png") no-repeat right center;padding-right:20px; color:#ac2e1e;}
+.nav_list li a:hover { color:#ac2e1e; }
+/***************************************************全部分类********************************************************************************/
+.subnav_all{background:#f1f1f2; width:100%; overflow:hidden; opacity:0.97;filter:alpha(opacity=97);-moz-opacity:0.97;-khtml-opacity: 0.97;  position:absolute; left:0; top:105px; display:none; z-index:8888}
+.subnav_popup { background:none; height:190px;width:1262px; clear:both; margin:0 auto; position:relative;}
+.subnav_close{display:block;background:url(../images/index_06.png) no-repeat;width:102px;height:19px;clear:both; position:absolute;top:170px;left:480px;cursor:pointer;}
+.subnav_left{width:32px;height:185px;background:url(../images/index_04.png) no-repeat; cursor:pointer; position:absolute; left:0; top:0;}/*改*/
+.subnav_middle{width:1200px;height:185px;border-bottom:1px solid #ddd; overflow:hidden; position:relative; margin:0 auto;}
+.subnav_middle .gg div{width:199px;height:150px;border-left:1px dashed #ddd;float:left;display:inline;margin-top:15px;}
+.subnav_middle div h2{margin:5px 0 0 30px; width:150px; overflow:hidden;}
+.subnav_middle div h2 span{font:normal 14px/28px "微软雅黑";color:#949494;margin-left:15px;}
+/*width:68px;*/
+.subnav_middle div a{height:34px;font:normal 14px/34px "微软雅黑";color:#949494;display:inline-block;max-width:100px; margin-left:30px;}
+.subnav_middle div h2 a{font:normal 16px/28px "微软雅黑";color:#000; padding-left:0;}
+.subnav_middle div a:hover{ color:#ac2e1e}
+.bg{background:url(../images/index_09.png) no-repeat right 12px; padding-right:20px;}
+.subnav_right{ position:absolute; right:0; top:0;width:32px;height:185px;background:url(../images/index_05.png) no-repeat; cursor:pointer;}/*改*/
+.footer{width:100%;height:290px; background:#4a4a4a; clear:both; position:relative; bottom:0px;}
+.f_information{width:1198px;height:149px;color:#9f9f9f;margin:0 auto 30px auto;overflow:hidden;border-bottom:1px solid #727272;}
+.f_information div{font:normal 22px/24px "微软雅黑";color:#afafaf;margin:30px 0;}
+.f_information p{ width:1300px;}
+.f_information a{float:left;margin-right:52px;}
+.f_inforf{color:#727272;margin:0 auto 20px auto;width:195px;}
+.f_infors{font:normal 14px/24px "微软雅黑";color:#727272;margin:0 auto;width:320px;}
+.f_infort{font:normal 14px/24px "微软雅黑";color:#727272;margin:0 auto;width:375px;}

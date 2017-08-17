@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>授权过期</title>
+    <link href="WebUI/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="WebUI/css/error.css" rel="stylesheet" type="text/css" />
+    <script src="WebUI/js/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <style type="text/css">
+        .content{ background:url(WebUI/images/expered2.jpg) no-repeat;width:844px; height:257px; }
+        .content a{ border:#1e293b 1px solid; background-color:#4c93ce; color:#fff;}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a href="http://www.shangyekj.com">联系我们</a>
+    </div>
+    <div class="foot">上海上业信息科技有限公司 版权所有</div>
+    <script>
+        var mm = ($(window).height() - $(".content").height()) / 2 - 50;
+        if (mm > 0) {
+            $(".content").css("margin-top", mm);
+        }
+        else {
+            $(".content").css("margin-top", 0);
+        }
+        window.onresize = function () {
+            var mm = ($(window).height() - $(".content").height()) / 2 - 50;
+            if (mm > 0) {
+                $(".content").css("margin-top", mm);
+            }
+            else {
+                $(".content").css("margin-top", 0);
+            }
+        }
+        if (navigator.userAgent.match(/mobile/i)) {
+            location.href = "Mobile/expired.html";
+        }
+    </script>
+</body>
+</html>

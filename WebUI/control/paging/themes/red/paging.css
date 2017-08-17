@@ -1,0 +1,4 @@
+﻿.paging{ width:100%; height:auto; text-align:center; padding:30px 0;}
+.paging a{ display:inline-block; height:23px; border:1px solid #d3d3d3; background:#fff; font:normal 14px/23px 宋体,Arial; color:#737373; padding:0 8px; margin:0 2px;}
+.paging a:hover,.paging .e{ background:#c60000; color:#fff;}
+.paging .d:hover{background:#fff; color:#737373;}

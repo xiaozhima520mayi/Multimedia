@@ -1,0 +1,11 @@
+﻿body{ background-color:#fff;}
+.content{width:704px; height:343px; margin:0 auto; position:relative;}
+.content a.returnHome{border-radius:5px; width:105px; height:30px; text-align:center; color:#b53232; font:normal 18px/30px "Yahei","Helvetica",Arial; background-color:#fff; position:absolute; left:302px; top:194px;}
+.content a:hover{ color:#b53232;}
+.content .expered a.loginUser{border-radius:5px; width:105px; height:30px; text-align:center; color:#b53232; font:normal 18px/30px "Yahei","Helvetica",Arial; background-color:#fff; position:absolute; left:375px; top:194px;}
+.content .expered2 a.homeCenter{border-radius:5px; width:105px; height:30px; text-align:center; color:#b53232; font:normal 18px/30px "Yahei","Helvetica",Arial; background-color:#fff; position:absolute; left:445px; top:220px;}
+.content .expered2 a.qq{  background:url(../images/qq.png) no-repeat; width:20px; height:21px;position:absolute; left:406px; top:186px;}
+.content .expered p{color:#fff; font:normal 14px/30px "Yahei","Helvetica",Arial;position:absolute; left:312px; top:234px;}
+.content .expered p b{ color:#ffb400; padding-right:3px;}
+.foot{ text-align:center; font:normal 14px/24px "Yahei","Helvetica",Arial; color:#a0a0a0; margin-top:50px;}
+.foot a{ font:normal 14px/24px "Yahei","Helvetica",Arial; color:#a0a0a0; }

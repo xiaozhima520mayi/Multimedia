@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Template>
+	<Template  defaultimg="/WebUI/images/no_photo.jpg" imageSize="Small">
+		<Head></Head>
+		<Item>
+			<![CDATA[
+			<li p='{IsPms}' rights='{C_Rights}' id='{C_Id}'><a href="javascript://" title='{C_Title}'><img src="/WebUI/control/imgloading/point.gif" rel="{C_Image}" onload="imgloadimg($(this),1)" /></a><span><a href="javascript://" title='{C_Title}'>{C_Title,18}</a></span><i class="icon key"></i>
+			]]>
+		</Item>
+		<Footer></Footer>
+	</Template>
+</Template>
